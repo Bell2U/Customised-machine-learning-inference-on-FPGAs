@@ -10,3 +10,27 @@ Machine learning is now widely used in medical, automation, speech recognition, 
 
 The high hardware and energy requirements of machine learning at current stage make it impossible to run in embedded systems.
 
+## Dot product implemented by block floating point
+
+This is the brief explain of the files in the folder "block floating point"
+
+**Block diagram:**
+
+![block diagram](./img/block_diagram.png)
+
+![input](./img/input.png)
+
+**Tests:**
+
+![t1](./img/test1.png)
+
+![t2](./img/test2.png)
+
+![t3](./img/testing.png)
+
+In test case 2, the result wasn't accurate because some less significant bits were discarded during the normalization step.
+
+
+
+
+
